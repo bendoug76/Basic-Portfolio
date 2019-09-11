@@ -1,0 +1,13 @@
+*{
+  background: "src= assets/images/qbkls.png";
+}
+
+header{
+    background: #4aaa;
+    color: white;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+  }
