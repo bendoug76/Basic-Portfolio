@@ -1,13 +1,46 @@
 *{
-  background: "src= assets/images/qbkls.png";
+  
 }
 
-header{
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background: #4aaa;
     color: white;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    align-self: auto;
 }
 
 img {
-    max-width: 30%;
+    max-width: 20%;
     height: auto;
   }
+
+body {
+    background-image: url(asssets/images/qbkls.png);
+    background-color: rgb(247, 245, 242);
+}
+
+#section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: gray;
+    margin-right: 20px;
+    float: left;
+    width: 490px;
+    height: fit-content;
+}
+
+#p {
+    align-items: 
+}
+
+#about,
+#portfolio,
+#contact{
+    float: right;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
