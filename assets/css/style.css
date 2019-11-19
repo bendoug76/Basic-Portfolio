@@ -2,45 +2,57 @@
   
 }
 
+#sec1{
+    
+}
+
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #4aaa;
     color: white;
     padding: 10px;
     text-align: center;
-    width: 20%;
     align-self: auto;
+    width: 20%;
 }
 
 img {
     max-width: 20%;
     height: auto;
+    float: left;
   }
 
 body {
-    background-image: url(asssets/images/qbkls.png);
+    background-image: url(qbkls.png);
     background-color: rgb(247, 245, 242);
 }
 
 #section {
     padding: 20px;
-    margin-bottom: 20px;
     background: gray;
     margin-right: 20px;
     float: left;
     width: 490px;
     height: fit-content;
+    text-align: center;
 }
 
-#p {
-    align-items: 
+p {
+    align-items: center
 }
 
 #about,
 #portfolio,
 #contact{
-    float: right;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 5px;
-    
+    text-decoration: black;
+    display: inline-block;
+}
+
+h1{
+    width: 25%;
+    color: #4aaa;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
